@@ -5,9 +5,31 @@ app_description = "Factory Compliance System"
 app_email = "shraddha.pailwan@erpdata.in"
 app_license = "mit"
 
+
+fixtures = [
+    {
+        "dt": "Number Card",
+        "filters": [
+            ["name", "in", [
+                "High Risk Legal Cases"
+            ]]
+        ]
+    },
+    {
+        "dt": "Dashboard Chart",
+        "filters": [
+            ["name", "in", [
+                "Liability Exposure (Sum)",
+                "Open vs Closed Cases",
+                "Upcoming Hearings"
+            ]]
+        ]
+    }
+]
+
+
 # Apps
 # ------------------
-
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
