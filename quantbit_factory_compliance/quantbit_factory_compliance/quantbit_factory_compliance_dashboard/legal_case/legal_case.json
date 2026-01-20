@@ -1,0 +1,33 @@
+{
+ "cards": [
+  {
+   "card": "High Risk Cases"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "Liability Exposure(sum)",
+   "width": "Half"
+  },
+  {
+   "chart": "Open vs Closed Cases",
+   "width": "Half"
+  },
+  {
+   "chart": "Upcoming Hearings",
+   "width": "Half"
+  }
+ ],
+ "creation": "2026-01-16 15:45:33.774007",
+ "dashboard_name": "Legal Case",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 1,
+ "is_standard": 1,
+ "modified": "2026-01-20 11:35:11.211085",
+ "modified_by": "Administrator",
+ "module": "Quantbit Factory Compliance",
+ "name": "Legal Case",
+ "owner": "Administrator"
+}

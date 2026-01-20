@@ -1,0 +1,41 @@
+{
+ "based_on": "",
+ "chart_name": "Liability Exposure(sum)",
+ "chart_type": "Report",
+ "creation": "2026-01-19 14:01:57.856909",
+ "currency": "INR",
+ "custom_options": "{\n  \"colors\": [\"#00ff00\"],  \n  \"showValues\": true,\n  \"valueFormat\": \"currency\",\n  \"legend\": {\n    \"position\": \"top\",\n    \"show\": true\n  },\n  \"tooltip\": {\n    \"enabled\": true,\n    \"format\": \"{series}: {value}\"\n  },\n  \"bar\": {\n    \"borderRadius\": 4,\n    \"barWidth\": \"60%\"\n  },\n  \"grid\": {\n    \"show\": true,\n    \"borderColor\": \"#e0e0e0\"\n  }\n}\n",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "document_type": "Factory Regulatory Register",
+ "dynamic_filters_json": "{}",
+ "filters_json": "{}",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "modified": "2026-01-19 15:16:23.691845",
+ "modified_by": "Administrator",
+ "module": "Quantbit Factory Compliance",
+ "name": "Liability Exposure(sum)",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "parent_document_type": "",
+ "report_name": "Liability Per Risk level Report",
+ "roles": [],
+ "show_values_over_chart": 1,
+ "source": "",
+ "time_interval": "Yearly",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "type": "Donut",
+ "use_report_chart": 0,
+ "value_based_on": "",
+ "x_field": "risk_level",
+ "y_axis": [
+  {
+   "color": "#CB2929",
+   "y_field": "total_liability"
+  }
+ ]
+}
